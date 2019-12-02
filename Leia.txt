@@ -1,1 +1,13 @@
 https://imasters.com.br/dotnet/construindo-uma-api-graphql-com-asp-net-core-e-entity-framework-core
+
+dotnet add package GraphQL 
+dotnet add package graphiql
+
+
++-----------------------------------+---------------------------------+
+|            REST                   |     GraphQL                     | 
++-----------------------------------+---------------------------------+
+| Requisição a mais de uma rota     | Somente uma rota                | 
+| API's grandes tem muitos endpoints| Somente um endpoint             |
+| Tráfego desnecessário de dados    | cliente solicita só o necessário| 
++-----------------------------------+---------------------------------+
